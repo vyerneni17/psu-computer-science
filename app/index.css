@@ -5,51 +5,51 @@
 }
 
 body {
-    background-image: url(/app/images/psu_fall.jpg);
-    background-attachment: scroll;
-    background-color: #FFF;
     padding: 20px;
-    margin: 0;
+}
+
+header {
+    padding-bottom: 10px;
+}
+
+nav {
 }
 
 #main {
     display: flex;
+    align-content: center;
 }
 
 #main h1 {
-    margin-left: 10px;
-    margin-top: 3px;
+    font-family: 'Cardo', Serif;
+    font-size: 40px;
+    display: inline-flex;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 #main img{
     height: 50px;
     width: 50px;
     margin-top: initial;
+    border-radius: 10px;
 }
 
 h1, h2, h3, p, ul, li {
     font-family: 'Cardo', Serif;
 }
 
-h1.mainHeading {
-    font-family: 'Cardo', Serif;
-    font-size: 40px;
-    color: ghostwhite;
-    display: inline-flex;
-    margin-left: 10px;
-}
-
-ul.header li {
+ul.nav-bar li {
     display: inline;
     list-style-type: none;
     font-size: larger;
     margin: 0;
 }
-ul.header {
-    background-color: ghostwhite;
-    padding: 0;
+ul.nav-bar {
+    padding: 10px;
+    border-top: solid #8c9516 1px;
 }
-ul.header li a {
+ul.nav-bar li a {
     color: #111;
     font-weight: bold;
     text-decoration: none;
@@ -76,20 +76,28 @@ ul.header li a {
     animation: fadein 2s;
 }
 
-footer {
-    background-color: ghostwhite;
-    padding: 20px;
-    bottom:0;
-    margin-top: 16px;
-    text-align: center;
-    font-family: 'Cardo', Serif;
+a.active {
+    border-radius: 0px 30px;
 }
 
-#container {
+footer {
+    background-color: #8c9516;
+    padding: 20px;
+    bottom:0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: 'Cardo', Serif;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+.container {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    min-height: 100%;
 }
 
 #intelimg, #cdkimg, #daimlerimg, #mentorimg {
@@ -136,4 +144,3 @@ footer {
 #span_tag {
     white-space: nowrap;
 }
-

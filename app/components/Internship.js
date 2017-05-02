@@ -3,6 +3,7 @@ var React = require('react');
 class Internships extends React.Component{
     render() {
         return (
+            <div className="col-md-12">
             <div className="content">
                 <h2>Internships</h2>
                 <h3>Credits for Internship</h3>
@@ -46,6 +47,7 @@ class Internships extends React.Component{
                         <img id="ibmimg" src="app/images/ibm.png"/>
                     </div>
                 </p>
+            </div>
             </div>
         );
     }

@@ -3,7 +3,8 @@ var NavLink = require('react-router-dom').NavLink;
 
 function Nav () {
     return(
-        <ul className='header'>
+        <nav>
+        <ul className='nav-bar'>
             <li>
                 <NavLink exact activeClassName='active' to='/'>
                     Home
@@ -26,7 +27,7 @@ function Nav () {
             </li>
             <li>
                 <NavLink activeClassName='active' to='/opt'>
-                    CPT & OPT
+                    CPT/OPT
                 </NavLink>
             </li>
             <li>
@@ -40,6 +41,7 @@ function Nav () {
                 </NavLink>
             </li>
         </ul>
+        </nav>
     )
 }
 

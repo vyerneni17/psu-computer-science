@@ -3,6 +3,7 @@ var React = require('react');
 class Courses extends React.Component {
     render() {
         return (
+            <div className="col-md-12">
             <div className="content">
                 <h2>Course Information</h2>
                 <p>
@@ -56,6 +57,7 @@ class Courses extends React.Component {
                         <h4><ins>SUMMER</ins></h4>
                     </p>
                 </p>
+            </div>
             </div>
         );
     }

@@ -3,6 +3,7 @@ var React = require('react');
 class Home extends React.Component {
     render() {
         return (
+            <div className="col-md-12">
             <div className="content">
                 <h2>Hello World!</h2>
                 <p>Welcome! Do you plan to attend Portland State University and
@@ -49,6 +50,7 @@ class Home extends React.Component {
                         (Open link & Click on "Apply for Admission" tab)
                     </p>
                 </p>
+            </div>
             </div>
         );
     }
